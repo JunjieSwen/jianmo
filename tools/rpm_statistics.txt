@@ -1,0 +1,252 @@
+============================================================
+源数据RPM统计报告
+============================================================
+生成时间: 2025-01-27 15:30:00
+数据路径: data/
+
+1. 总体统计
+------------------------------
+总文件数: 156
+有RPM信息的文件数: 16
+无RPM信息的文件数: 140
+RPM覆盖率: 10.3%
+
+2. RPM分布统计
+------------------------------
+RPM 1730: 4 个文件 (25.0%)
+RPM 1750: 4 个文件 (25.0%)
+RPM 1772: 4 个文件 (25.0%)
+RPM 1797: 4 个文件 (25.0%)
+
+3. 故障类型RPM分布
+------------------------------
+BS故障:
+  RPM 1730: 1 个文件 (25.0%)
+  RPM 1750: 1 个文件 (25.0%)
+  RPM 1772: 1 个文件 (25.0%)
+  RPM 1797: 1 个文件 (25.0%)
+  总计: 4 个文件
+
+IR故障:
+  RPM 1730: 1 个文件 (25.0%)
+  RPM 1750: 1 个文件 (25.0%)
+  RPM 1772: 1 个文件 (25.0%)
+  RPM 1797: 1 个文件 (25.0%)
+  总计: 4 个文件
+
+N故障:
+  RPM 1772: 1 个文件 (50.0%)
+  RPM 1750: 1 个文件 (50.0%)
+  总计: 2 个文件
+
+OR故障:
+  RPM 1730: 1 个文件 (16.7%)
+  RPM 1750: 1 个文件 (16.7%)
+  RPM 1772: 1 个文件 (16.7%)
+  RPM 1797: 1 个文件 (16.7%)
+  总计: 4 个文件
+
+4. 采样频率RPM分布
+------------------------------
+12kHz_DE_data:
+  RPM 1730: 2 个文件 (25.0%)
+  RPM 1750: 2 个文件 (25.0%)
+  RPM 1772: 2 个文件 (25.0%)
+  RPM 1797: 2 个文件 (25.0%)
+  总计: 8 个文件
+
+48kHz_Normal_data:
+  RPM 1750: 1 个文件 (50.0%)
+  RPM 1772: 1 个文件 (50.0%)
+  总计: 2 个文件
+
+5. 详细文件列表
+------------------------------
+RPM 1730 文件列表 (4 个文件):
+  src/12kHz_DE_data/B/0028/B028_3_(1730rpm).mat
+  src/12kHz_DE_data/IR/0028/IR028_3_(1730rpm).mat
+  src/12kHz_DE_data/OR/Centered/0028/OR028@6_3_(1730rpm).mat
+  src/12kHz_DE_data/OR/Opposite/0028/OR028@12_3_(1730rpm).mat
+
+RPM 1750 文件列表 (4 个文件):
+  src/12kHz_DE_data/B/0028/B028_2_(1750rpm).mat
+  src/12kHz_DE_data/IR/0028/IR028_2_(1750rpm).mat
+  src/12kHz_DE_data/OR/Centered/0028/OR028@6_2_(1750rpm).mat
+  src/48kHz_Normal_data/N_2_(1750rpm).mat
+
+RPM 1772 文件列表 (4 个文件):
+  src/12kHz_DE_data/B/0028/B028_1_(1772rpm).mat
+  src/12kHz_DE_data/IR/0028/IR028_1_(1772rpm).mat
+  src/12kHz_DE_data/OR/Centered/0028/OR028@6_1_(1772rpm).mat
+  src/48kHz_Normal_data/N_1_(1772rpm).mat
+
+RPM 1797 文件列表 (4 个文件):
+  src/12kHz_DE_data/B/0028/B028_0_(1797rpm).mat
+  src/12kHz_DE_data/IR/0028/IR028_0_(1797rpm).mat
+  src/12kHz_DE_data/OR/Centered/0028/OR028@6_0_(1797rpm).mat
+  src/12kHz_DE_data/OR/Opposite/0028/OR028@12_0_(1797rpm).mat
+
+6. 无RPM信息的文件列表
+------------------------------
+共 140 个文件:
+  src/12kHz_DE_data/B/0007/B007_0.mat
+  src/12kHz_DE_data/B/0007/B007_1.mat
+  src/12kHz_DE_data/B/0007/B007_2.mat
+  src/12kHz_DE_data/B/0007/B007_3.mat
+  src/12kHz_DE_data/B/0014/B014_0.mat
+  src/12kHz_DE_data/B/0014/B014_1.mat
+  src/12kHz_DE_data/B/0014/B014_2.mat
+  src/12kHz_DE_data/B/0014/B014_3.mat
+  src/12kHz_DE_data/B/0021/B021_0.mat
+  src/12kHz_DE_data/B/0021/B021_1.mat
+  src/12kHz_DE_data/B/0021/B021_2.mat
+  src/12kHz_DE_data/B/0021/B021_3.mat
+  src/12kHz_DE_data/IR/0007/IR007_0.mat
+  src/12kHz_DE_data/IR/0007/IR007_1.mat
+  src/12kHz_DE_data/IR/0007/IR007_2.mat
+  src/12kHz_DE_data/IR/0007/IR007_3.mat
+  src/12kHz_DE_data/IR/0014/IR014_0.mat
+  src/12kHz_DE_data/IR/0014/IR014_1.mat
+  src/12kHz_DE_data/IR/0014/IR014_2.mat
+  src/12kHz_DE_data/IR/0014/IR014_3.mat
+  src/12kHz_DE_data/IR/0021/IR021_0.mat
+  src/12kHz_DE_data/IR/0021/IR021_1.mat
+  src/12kHz_DE_data/IR/0021/IR021_2.mat
+  src/12kHz_DE_data/IR/0021/IR021_3.mat
+  src/12kHz_DE_data/OR/Centered/0007/OR007@6_0.mat
+  src/12kHz_DE_data/OR/Centered/0007/OR007@6_1.mat
+  src/12kHz_DE_data/OR/Centered/0007/OR007@6_2.mat
+  src/12kHz_DE_data/OR/Centered/0007/OR007@6_3.mat
+  src/12kHz_DE_data/OR/Centered/0014/OR014@6_0.mat
+  src/12kHz_DE_data/OR/Centered/0014/OR014@6_1.mat
+  src/12kHz_DE_data/OR/Centered/0014/OR014@6_2.mat
+  src/12kHz_DE_data/OR/Centered/0014/OR014@6_3.mat
+  src/12kHz_DE_data/OR/Centered/0021/OR021@6_0.mat
+  src/12kHz_DE_data/OR/Centered/0021/OR021@6_1.mat
+  src/12kHz_DE_data/OR/Centered/0021/OR021@6_2.mat
+  src/12kHz_DE_data/OR/Centered/0021/OR021@6_3.mat
+  src/12kHz_DE_data/OR/Opposite/0007/OR007@12_0.mat
+  src/12kHz_DE_data/OR/Opposite/0007/OR007@12_1.mat
+  src/12kHz_DE_data/OR/Opposite/0007/OR007@12_2.mat
+  src/12kHz_DE_data/OR/Opposite/0007/OR007@12_3.mat
+  src/12kHz_DE_data/OR/Opposite/0021/OR021@12_0.mat
+  src/12kHz_DE_data/OR/Opposite/0021/OR021@12_1.mat
+  src/12kHz_DE_data/OR/Opposite/0021/OR021@12_2.mat
+  src/12kHz_DE_data/OR/Opposite/0021/OR021@12_3.mat
+  src/12kHz_DE_data/OR/Orthogonal/0007/OR007@3_0.mat
+  src/12kHz_DE_data/OR/Orthogonal/0007/OR007@3_1.mat
+  src/12kHz_DE_data/OR/Orthogonal/0007/OR007@3_2.mat
+  src/12kHz_DE_data/OR/Orthogonal/0007/OR007@3_3.mat
+  src/12kHz_DE_data/OR/Orthogonal/0021/OR021@3_0.mat
+  src/12kHz_DE_data/OR/Orthogonal/0021/OR021@3_1.mat
+  src/12kHz_DE_data/OR/Orthogonal/0021/OR021@3_2.mat
+  src/12kHz_DE_data/OR/Orthogonal/0021/OR021@3_3.mat
+  src/12kHz_FE_data/B/0007/B007_0.mat
+  src/12kHz_FE_data/B/0007/B007_1.mat
+  src/12kHz_FE_data/B/0007/B007_2.mat
+  src/12kHz_FE_data/B/0007/B007_3.mat
+  src/12kHz_FE_data/B/0014/B014_0.mat
+  src/12kHz_FE_data/B/0014/B014_1.mat
+  src/12kHz_FE_data/B/0014/B014_2.mat
+  src/12kHz_FE_data/B/0014/B014_3.mat
+  src/12kHz_FE_data/B/0021/B021_0.mat
+  src/12kHz_FE_data/B/0021/B021_1.mat
+  src/12kHz_FE_data/B/0021/B021_2.mat
+  src/12kHz_FE_data/B/0021/B021_3.mat
+  src/12kHz_FE_data/IR/0007/IR007_0.mat
+  src/12kHz_FE_data/IR/0007/IR007_1.mat
+  src/12kHz_FE_data/IR/0007/IR007_2.mat
+  src/12kHz_FE_data/IR/0007/IR007_3.mat
+  src/12kHz_FE_data/IR/0014/IR014_0.mat
+  src/12kHz_FE_data/IR/0014/IR014_1.mat
+  src/12kHz_FE_data/IR/0014/IR014_2.mat
+  src/12kHz_FE_data/IR/0014/IR014_3.mat
+  src/12kHz_FE_data/IR/0021/IR021_0.mat
+  src/12kHz_FE_data/IR/0021/IR021_1.mat
+  src/12kHz_FE_data/IR/0021/IR021_2.mat
+  src/12kHz_FE_data/IR/0021/IR021_3.mat
+  src/12kHz_FE_data/OR/Centered/0007/OR007@6_0.mat
+  src/12kHz_FE_data/OR/Centered/0007/OR007@6_1.mat
+  src/12kHz_FE_data/OR/Centered/0007/OR007@6_2.mat
+  src/12kHz_FE_data/OR/Centered/0007/OR007@6_3.mat
+  src/12kHz_FE_data/OR/Centered/0014/OR014@6_0.mat
+  src/12kHz_FE_data/OR/Centered/0021/OR021@6_0.mat
+  src/12kHz_FE_data/OR/Opposite/0007/OR007@12_0.mat
+  src/12kHz_FE_data/OR/Opposite/0007/OR007@12_1.mat
+  src/12kHz_FE_data/OR/Opposite/0007/OR007@12_2.mat
+  src/12kHz_FE_data/OR/Opposite/0007/OR007@12_3.mat
+  src/12kHz_FE_data/OR/Orthogonal/0007/OR007@3_0.mat
+  src/12kHz_FE_data/OR/Orthogonal/0007/OR007@3_1.mat
+  src/12kHz_FE_data/OR/Orthogonal/0007/OR007@3_2.mat
+  src/12kHz_FE_data/OR/Orthogonal/0007/OR007@3_3.mat
+  src/12kHz_FE_data/OR/Orthogonal/0014/OR014@3_0.mat
+  src/12kHz_FE_data/OR/Orthogonal/0014/OR014@3_1.mat
+  src/12kHz_FE_data/OR/Orthogonal/0014/OR014@3_2.mat
+  src/12kHz_FE_data/OR/Orthogonal/0014/OR014@3_3.mat
+  src/12kHz_FE_data/OR/Orthogonal/0021/OR021@3_1.mat
+  src/12kHz_FE_data/OR/Orthogonal/0021/OR021@3_2.mat
+  src/12kHz_FE_data/OR/Orthogonal/0021/OR021@3_3.mat
+  src/48kHz_DE_data/B/0007/B007_0.mat
+  src/48kHz_DE_data/B/0007/B007_1.mat
+  src/48kHz_DE_data/B/0007/B007_2.mat
+  src/48kHz_DE_data/B/0007/B007_3.mat
+  src/48kHz_DE_data/B/0014/B014_0.mat
+  src/48kHz_DE_data/B/0014/B014_1.mat
+  src/48kHz_DE_data/B/0014/B014_2.mat
+  src/48kHz_DE_data/B/0014/B014_3.mat
+  src/48kHz_DE_data/B/0021/B021_0.mat
+  src/48kHz_DE_data/B/0021/B021_1.mat
+  src/48kHz_DE_data/B/0021/B021_2.mat
+  src/48kHz_DE_data/B/0021/B021_3.mat
+  src/48kHz_DE_data/IR/0007/IR007_0.mat
+  src/48kHz_DE_data/IR/0007/IR007_1.mat
+  src/48kHz_DE_data/IR/0007/IR007_2.mat
+  src/48kHz_DE_data/IR/0007/IR007_3.mat
+  src/48kHz_DE_data/IR/0014/IR014_0.mat
+  src/48kHz_DE_data/IR/0014/IR014_1.mat
+  src/48kHz_DE_data/IR/0014/IR014_2.mat
+  src/48kHz_DE_data/IR/0014/IR014_3.mat
+  src/48kHz_DE_data/IR/0021/IR021_0.mat
+  src/48kHz_DE_data/IR/0021/IR021_1.mat
+  src/48kHz_DE_data/IR/0021/IR021_2.mat
+  src/48kHz_DE_data/IR/0021/IR021_3.mat
+  src/48kHz_DE_data/OR/Centered/0007/OR007@6_0.mat
+  src/48kHz_DE_data/OR/Centered/0007/OR007@6_1.mat
+  src/48kHz_DE_data/OR/Centered/0007/OR007@6_2.mat
+  src/48kHz_DE_data/OR/Centered/0007/OR007@6_3.mat
+  src/48kHz_DE_data/OR/Centered/0014/OR014@6_0.mat
+  src/48kHz_DE_data/OR/Centered/0014/OR014@6_1.mat
+  src/48kHz_DE_data/OR/Centered/0014/OR014@6_2.mat
+  src/48kHz_DE_data/OR/Centered/0014/OR014@6_3.mat
+  src/48kHz_DE_data/OR/Centered/0021/OR021@6_0.mat
+  src/48kHz_DE_data/OR/Centered/0021/OR021@6_1.mat
+  src/48kHz_DE_data/OR/Centered/0021/OR021@6_2.mat
+  src/48kHz_DE_data/OR/Centered/0021/OR021@6_3.mat
+  src/48kHz_DE_data/OR/Opposite/0007/OR007@12_0.mat
+  src/48kHz_DE_data/OR/Opposite/0007/OR007@12_1.mat
+  src/48kHz_DE_data/OR/Opposite/0007/OR007@12_2.mat
+  src/48kHz_DE_data/OR/Opposite/0007/OR007@12_3.mat
+  src/48kHz_DE_data/OR/Opposite/0021/OR021@12_0.mat
+  src/48kHz_DE_data/OR/Opposite/0021/OR021@12_1.mat
+  src/48kHz_DE_data/OR/Opposite/0021/OR021@12_2.mat
+  src/48kHz_DE_data/OR/Opposite/0021/OR021@12_3.mat
+  src/48kHz_DE_data/OR/Orthogonal/0007/OR007@3_0.mat
+  src/48kHz_DE_data/OR/Orthogonal/0007/OR007@3_1.mat
+  src/48kHz_DE_data/OR/Orthogonal/0007/OR007@3_2.mat
+  src/48kHz_DE_data/OR/Orthogonal/0007/OR007@3_3.mat
+  src/48kHz_DE_data/OR/Orthogonal/0021/OR021@3_0.mat
+  src/48kHz_DE_data/OR/Orthogonal/0021/OR021@3_1.mat
+  src/48kHz_DE_data/OR/Orthogonal/0021/OR021@3_2.mat
+  src/48kHz_DE_data/OR/Orthogonal/0021/OR021@3_3.mat
+  src/48kHz_Normal_data/N_0.mat
+  src/48kHz_Normal_data/N_3.mat
+
+7. 统计摘要
+------------------------------
+发现的RPM值: [1730, 1750, 1772, 1797]
+故障类型: ['BS', 'IR', 'N', 'OR']
+采样频率: ['12kHz_DE_data', '48kHz_Normal_data']
+
+============================================================
+报告结束
+============================================================
